@@ -35,4 +35,4 @@ if st.button('Predict'):
     prediction = model.predict(df_predict)
     
     # Display the prediction
-    st.write(f'Predicted height: {round(prediction[0], 1)}')
+    st.write(f'Predicted height: {round(prediction[0], 1)} cm')
