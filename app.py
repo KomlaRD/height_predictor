@@ -13,6 +13,7 @@ st.image(logo, width=300)
 
 # App title
 st.title('Height Prediction App (CCTH)')
+st.write("Height prediction tool for patients at the Cape Coast Teaching Hospital, Ghana")
 
 # User inputs
 gender = st.selectbox('Sex', ['Male', 'Female'])
