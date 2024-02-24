@@ -15,7 +15,7 @@ st.image(logo, width=300)
 st.title('Height Prediction App (CCTH)')
 st.write("Height prediction tool for patients at the Cape Coast Teaching Hospital, Ghana")
 
-st.markdown("*Email*:  ankueric1@gmail.com")
+st.markdown("**Email**:  ankueric1@gmail.com")
 
 # User inputs
 gender = st.selectbox('Sex', ['Male', 'Female'])
